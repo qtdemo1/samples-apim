@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ###### testing
-# export APIM_HOST=localhost RETRY_SEC=10 RE_RUN=true
+export APIM_HOST=wso2am-pattern-1-am-service RETRY_SEC=10 RE_RUN=true
 ######
 
 apim=$APIM_HOST
