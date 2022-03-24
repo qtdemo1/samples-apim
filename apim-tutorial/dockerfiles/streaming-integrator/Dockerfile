@@ -1,6 +1,5 @@
 # use streaming-integrator-base-image
-ARG BASE_IMAGE
-FROM ${BASE_IMAGE}
+FROM docker.io/wso2/wso2si:4.0.0
 MAINTAINER WSO2 Docker Maintainers "dev@wso2.org"
 
 ARG HOST_APPS_DIR=./siddhi-files
